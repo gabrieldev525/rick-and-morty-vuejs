@@ -1,0 +1,8 @@
+.character-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.character-list-container .character-card {
+    margin: 1rem 0;
+}

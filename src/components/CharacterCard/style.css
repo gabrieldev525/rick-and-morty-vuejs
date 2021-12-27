@@ -1,0 +1,30 @@
+.character-card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border-radius: 14px;
+  background-color: #8bcc52;
+  padding: 1rem;
+  align-items: center;
+}
+.character-card .card-image {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+.character-card h4 {
+  margin: 0;
+}
+.character-card .card-info {
+  display: flex;
+  margin-top: 1rem;
+}
+.character-card .card-info .info-item {
+  padding: 0.5rem;
+  border-radius: 14px;
+}
+.character-card .card-info .info-item:not(:first-child) {
+  margin-left: 1rem;
+}
+.character-card .card-info .info-item span {
+  color: var(--text-color);
+}
