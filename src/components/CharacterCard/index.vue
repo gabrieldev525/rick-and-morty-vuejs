@@ -16,7 +16,7 @@
 </template>
 
 <style>
-@import './style.css';
+@import './style.css'
 </style>
 
 <script>
@@ -24,5 +24,5 @@ export default {
   name: 'character-card',
   components: {},
   props: ['character'],
-};
+}
 </script>

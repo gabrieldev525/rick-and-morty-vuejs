@@ -36,9 +36,9 @@ export default {
       .get('https://rickandmortyapi.com/api/character')
       .then((response) => {
         const { results, prev, next } = response.data
-        this.characterList = results;
-        this.prevPage = prev;
-        this.nextPage = next;
+        this.characterList = results
+        this.prevPage = prev
+        this.nextPage = next
         this.isLoading = false
       })
   },
@@ -49,5 +49,5 @@ export default {
 </script>
 
 <style>
-@import './style.css';
+@import './style.css'
 </style>
